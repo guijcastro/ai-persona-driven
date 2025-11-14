@@ -1,0 +1,40 @@
+# Configurações do Persona Professional AI Builder
+# Método desenvolvido por Gui Castro
+
+process:
+  name: "Persona Professional AI Builder"
+  version: "1.0"
+  author: "Gui Castro"
+  steps: 10
+  estimated_time: "2-4 horas"
+  sequential: true
+  strict_flow: true
+
+output:
+  persona:
+    length: "500-800 palavras"
+    format: "primeira_pessoa"
+    style: "humano_direto_tecnico"
+  
+  languages:
+    primary: "portuguese"
+
+analysis:
+  profiles:
+    - "recrutador_rh"
+    - "especialista_linkedin" 
+    - "psicologo"
+    - "diretor_comercial"
+    - "especialista_tecnico"
+
+  channels:
+    - "linkedin"
+    - "site_pessoal"
+    - "palestra"
+    - "instagram"
+
+metadata:
+  method_author: "Gui Castro"
+  author_title: "Designer de Ecossistemas Digitais"
+  author_experience: "+15 anos orquestrando transformações digitais"
+  author_website: "http://www.oguicastro.com/"
