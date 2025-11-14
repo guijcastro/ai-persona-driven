@@ -1,0 +1,3 @@
+# Dependências para ferramentas de suporte
+python-dotenv>=1.0.0
+pyyaml>=6.0
