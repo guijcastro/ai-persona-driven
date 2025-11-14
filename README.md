@@ -18,10 +18,24 @@ Reduzir a lacuna entre quem você é profissionalmente e como as pessoas percebe
 10. **Ajustes Finais** - Refinamento e consolidação
 
 ## 🚀 Como Usar
-1. Clone o repositório
-2. Execute as etapas sequencialmente seguindo o fluxo exato
-3. Use os prompts na ordem correta
-4. Siga rigorosamente o processo de colar cada prompt apenas quando solicitado
+
+### Pré-requisitos
+- Acesso a IA conversacional (ChatGPT, Claude, etc.)
+- 2-4 horas sem interrupções
+- Material profissional organizado
+- Template de respostas preenchido
+
+### Fluxo Exato
+1. **Cole o Prompt-Mestre** e aguarde confirmação
+2. **Cole Etapa 1** e responda completamente
+3. **Siga sequencialmente** até Etapa 10
+4. **Cole cada prompt** apenas quando solicitado
+5. **Não pule etapas** - processo é cumulativo
+
+### Preparação Recomendada
+- Use o `template-respostas.md` para preparar todas as entradas
+- Reúna currículo, bio LinkedIn, textos representativos
+- Reserve tempo para reflexão honesta
 
 ## 📚 Estrutura do Repositório
 persona-professional-ai/
@@ -33,7 +47,7 @@ persona-professional-ai/
 │ ├── 📄 methodology.md
 │ ├── 📄 theoretical-foundations.md
 │ └── 📄 implementation-guide.md
-├── 📁 prompts/ 
+├── 📁 prompts/ # 100% integral do documento
 │ ├── 📄 master-prompt.md
 │ ├── 📄 etapa-1-ponto-partida.md
 │ ├── 📄 etapa-2-material-base.md
@@ -47,23 +61,7 @@ persona-professional-ai/
 │ └── 📄 etapa-10-ajustes-finais.md
 ├── 📁 examples/
 │ ├── 📄 exemplo-completo.md
-│ └── 📄 template-respostas.md
+│ └── 📄 template-respostas.md # Template completo 10 etapas
 └── 📁 src/
 ├── 📄 prompt_processor.py
 └── 📄 response_analyzer.py
-
-text
-
-## 🔄 Fluxo de Execução
-1. **Inicie** com o Prompt-Mestre
-2. **Siga sequencialmente** as 10 etapas
-3. **Cole cada prompt** apenas quando a IA solicitar
-4. **Não pule etapas** - o processo é cumulativo
-
-## 🤝 Contribuições
-Este repositório contém o método integral desenvolvido por Gui Castro. Contribuições para a ferramenta de suporte são bem-vindas.
-
----
-
-*Método desenvolvido por Gui Castro - Designer de Ecossistemas Digitais*
-*Site: www.oguicastro.com*
